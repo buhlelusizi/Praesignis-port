@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+
+}
+.about-text p
+{
+    font-weight: 40;
+    color:#f7fdfd;
+ 
+}
+
+.banner
+{
+position: relative;
+width: 87%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+background: url("2.jpg");
+background-size: cover;
+opacity:initial;
+}
+.banner .content
+{
+    max-width: 600px;
+    text-align: center;
+}
+.banner .content h2
+{    font-weight: 200;
+    font-size: 5em;
+    color: #39f3e4;
+}
+.banner .content h2:hover{
+ font-size: 5.3em;
+ color:white;
+}
+.banner .content p
+{
+font-size: 1.5em;
+color: #39f3e4;
+
+}
+.btn
+{
+    font-size: 1em;
+    color:white;
+    background: #39f3e4;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    Letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+letter-spacing: 6px;
+}
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 90%;
+padding: 40px 100px;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+font-weight: 200;
+}
+header .sticky
+{
+ background: #fff;
+ padding: 10px 100px;
+ box-shadow: 0 5px 20px white;
+}
+header .logo
+{
+    color: #4fee97;
+    font-weight: 500;
+    font-size: 2em;
+    text-decoration: none;
+ 
+}
+header .sticky .logo
+{
+   color: #39f3e4; 
+}
+header .logo span
+{
+    color: #39f3e4;
+}
+header .navigation
+{
+position: relative;
+display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 34px;
+    margin-right: 25px;
+    
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+}
+header.sticky .navigation li a
+{
+ color:white;    
+}
+header .navigation li a:hover
+{
+    color: #39f3e4;
+}
+
+#portfolio{
+    background-image: url("portfoliobg.jpg");
+    background-size: cover;
+}
+.titleText
+{
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+
+}
+
+.titleText span
+{
+color: white;
+font-weight: 700;
+font-size: 1.5em;
+ 
+}
+
+
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team .content 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: rgb(243, 240, 240);
+
+}
+
+.team .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 09px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.team .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+.team .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team .content .box .imgBx img:hover{
+    width:150%;
+    height:150%;
+}
+
+.team.content .box .text
+{
+    padding: 15px 0 5px;
+}
+.team .content .box .text h3 h4
+{
+    font-weight: 400;
+    color: rgb(250, 245, 245);
+}
+#about{
+    width: 97%;
+    height: 97vh;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 5% 0px 5%;
+    background-image: url("portfoliobg.jpg");
+    background-size: cover;
+}
+#about h4{
+    color:rgb(253, 249, 249);
+    font-family: Arial;
+    font-size: small;
+    font-weight: 200;
+}
+
+.container {
+    width: 80%;
+    background-color: #408f7e;
+    height:60%;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 06px;
+    padding-bottom: 06px;
+    color: rgb(248, 242, 242);
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+  
+a p{
+    text-align:end;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(250, 245, 245);
+}
+#about{
+    text-align: center;
+}
+.about-text{
+    font-family: calibri;
+    width:50%;  
+    color: rgb(247, 240, 240);
+
+}
+.about-text h1{
+    font-size: 2rem;
+    color: rgb(252, 247, 247);
+}
+.about-text h4{
+    color: rgb(247, 239, 239);
+    font-family: arial;
+    font-weight: 600;
+}
+.about-text h4, p{
+    font-size: 1.2rem;
+    color: rgb(247, 236, 236);
+}
+section
+{
+    padding: 100px;
+}
+
+
+#Testimonials{
+    background-image: url("portfoliobg.jpg");
+    background-size: cover;
+    text-align: center;
+    color: rgb(247, 240, 240);
+}
+.witness{
+    align-items: center;
+}
+#about img{
+    border-radius: 43%;
+    border-color:rgb(250, 247, 247);
+    box-sizing: 13px;
+    
+}
+#contact
+{
+    width: 97%;
+    height: 97vh;
+    background-image: url("portfoliobg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.frm-container{
+    padding: 50px 50px;
+    cursor: pointer;
+    width: 94%;
+    margin-bottom:10px;
+    height: fit-content;
+    border: 3px solid #f1f1f1;
+ 
+}
+    
+#userMessage-info{
+    width: 100%;
+    padding: 10px;
+}
+#portfolio img{
+    border-radius: 50%;
+    border-color:#111;
+    box-sizing: 15px;
+    
+}
+.banner .content h2
+{
+    font-size: 4em;
+    color: #39f3e4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+@media (max-width: 991px){
+    .banner
+{
+width: 120%;
+min-height: 144vh;
+}
+
+header
+{
+
+width: 30%;
+padding: 20px 50px;
+transition: 0.5s;
+font-weight: 90;
+}
+header .sticky
+{
+ padding: 05px 50px;
+ box-shadow: 0 5px 10px white;
+}
+header .logo
+{
+    font-weight: 250;
+    font-size: 0.8em;
+}
+
+header .navigation li
+{
+    margin-left: 22px;
+    margin-right: 15px;
+    font-size: 0.8em;
+    
+}
+header .navigation li a
+{
+   
+    font-weight: 200;
+}
+header .navigation
+{
+position: relative;
+display: flex;
+}
+#portfolio{
+    width: 125%;
+    min-height: 50vh;
+} 
+#about{
+    width: 171%;
+    min-height: 150vh;
+}
+.photo{
+ width: 01px; 
+  
+}
+#about p{
+  font-size: 1em;
+}
+#Testimonials{
+    width: 121%;
+    min-height: 150vh;
+}
+#contact{
+    width: 121%;
+    min-height: 170vh;
+}
+}
